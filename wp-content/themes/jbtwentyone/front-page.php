@@ -7,7 +7,7 @@ get_header();
 ?>
 <section id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+<h1><? the_title( $page ); ?></h1>
 <ul>
 <!-- // Define our WP Query Parameters -->
 <?php $the_query = new WP_Query( 'posts_per_page=5' ); ?>
