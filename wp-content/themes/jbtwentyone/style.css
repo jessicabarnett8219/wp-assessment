@@ -1,9 +1,28 @@
 /*
 Theme Name: JB Twentyone
 Author: jessicabarnett8219
-Description: A basic custom theme for demo purposes
+Description: A basic custom theme for assessment purposes
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: jbtwentyone
 */
+
+.site-wrapper {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.featured-img {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -17,7 +17,5 @@
 </head>
 
 <body <?php body_class(); ?>>
-
 <?php do_action( 'after_body' ); ?>
-
 <div class="site-wrapper">
