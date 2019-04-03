@@ -26,3 +26,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.custom-fields, .site-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -34,7 +34,9 @@ get_header();
     </main>
 </section>
 <!-- the two custom fields -->
+<div class="custom-fields">
 <p>Name: <?php the_field('name'); ?> Date Visited: <?php the_field('date_visited'); ?></p>
+</div>
 
 <?php get_footer(); ?>
 
