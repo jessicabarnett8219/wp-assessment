@@ -7,7 +7,7 @@
 </div><!-- .site-wrapper -->
 
 <footer class="site-footer">
-	<span>&copy; <?php echo date( 'M' ); ?> All Rights Reserved.
+	<span>&copy; <?php echo date( 'Y' ); ?> All Rights Reserved.
 </footer>
 
 <?php wp_footer(); ?>

@@ -6,8 +6,8 @@ Template Name: Custom Homepage
 get_header();
 ?>
 <section id="primary" class="content-area">
-		<main id="main" class="site-main">
 <h1><? the_title( $page ); ?></h1>
+		<main id="main" class="site-main">
 <ul>
 <!-- // Define our WP Query Parameters -->
 <?php $the_query = new WP_Query( 'posts_per_page=5' ); ?>
@@ -30,7 +30,7 @@ wp_reset_postdata();
         </main>
         </section>
 <!-- two custom fields -->
-<!-- lastest 5 posts previews with links -->
+<p>Name: <?php the_field('name'); ?> Date Visited: <?php the_field('date_visited'); ?></p>
 
 <?php get_footer(); ?>
 
